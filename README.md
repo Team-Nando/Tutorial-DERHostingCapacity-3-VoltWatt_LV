@@ -6,7 +6,7 @@ This multi-part Tutorial on Distributed Energy Resource (DER) Hosting Capacity w
 
 This Tutorial is designed for power engineering students (undergraduate and postgraduate), power engineers, researchers, consultants, etc. It requires some knowledge of coding (of course! 🤓) but not too advanced. If you are a decent coder, you will manage 😉.
 
-## Part 3: Advanced Tools for the Analysis of Three-Phase Unbalanced LV Networks
+## Part 3: Volt-Watt Control and PV Hosting Capacity of LV Networks
 
 The objectives of this tutorial are:
 1. To familiarise with the process by which power engineers can **assess the effects of the Volt-Watt control function (available in most residential PV inverters and used by most standards around the world) on voltages and, thus, on PV hosting capacity**.
@@ -14,7 +14,7 @@ The objectives of this tutorial are:
 2. To continue familiarising with **advanced tools** useful to run distribution network studies involving DERs. You will continue using [OpenDSS](https://www.epri.com/pages/sa/opendss) via the [dss_python](https://github.com/dss-extensions/dss_python) module. And, to guide you, all will be done using a notebook on [Jupyter Notebook](https://jupyter.org/).
 
 ### Pre-Requisites for Part 3
-- You should have completed [Part 0](https://github.com/Team-Nando/Tutorial-DERHostingCapacity-0-dss_python) and, of course, be familiar with [OpenDSS and the modelling of distribution networks and DERs](https://sites.google.com/view/luisfochoa/research-tools/opendss-training-material).
+- You should have completed [Part 2](https://github.com/Team-Nando/Tutorial-DERHostingCapacity-2-TimeSeries_LV).
 - For this part you just need Python (Anaconda) and the dss_python module. OpenDSS was only needed in Part 0 for demonstration purposes.
 
 ## Run Part 3
