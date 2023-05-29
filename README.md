@@ -1,13 +1,24 @@
-# ELEN90077 2023 Workshop - Week 3 "PV Hosting Capacity and Volt-Watt Control"
+# Tutorial on DER Hosting Capacity - Part 3: Volt-Watt Control and PV Hosting Capacity of LV Networks
 
-This ELEN90077 2023 workshop will be developed in week 3.
+## Tutorial on DER Hosting Capacity
 
-The objectives of this workshop are:
-1. To familiarise with the process by which power engineers can assess the effects of the Volt-Watt control function (available in most residential PV inverters and used by most standards around the world) on voltages and, thus, on PV hosting capacity.
+This multi-part Tutorial on Distributed Energy Resource (DER) Hosting Capacity will guide you, using interactive code via Jupyter Notebook and Python, through the different steps to run advanced, detailed time-series simulations to properly assess the technical impacts of DERs (such as solar photovoltaics ☀️🏡) on realistic three-phase unbalanced distribution networks.
 
-2. To continue familiarising with the advanced tool [OpenDSS](https://www.epri.com/pages/sa/opendss) (using Python and the [dss_python](https://github.com/dss-extensions/dss_python) module module). And, to guide you, all will be done using a notebook on [Jupyter Notebook](https://jupyter.org/).
+This Tutorial is designed for power engineering students (undergraduate and postgraduate), power engineers, researchers, consultants, etc. It requires some knowledge of coding (of course! 🤓) but not too advanced. If you are a decent coder, you will manage 😉.
 
-All the instructions on how to download the files and install all the necessary tools to perform this workshop are included on Canvas. Make sure you have installed Anaconda, the dss_python module, etc. as specified on Canvas. Otherwise, you will not be able to go through the workshop.
+## Part 3: Advanced Tools for the Analysis of Three-Phase Unbalanced LV Networks
+
+The objectives of this tutorial are:
+1. To familiarise with the process by which power engineers can **assess the effects of the Volt-Watt control function (available in most residential PV inverters and used by most standards around the world) on voltages and, thus, on PV hosting capacity**.
+
+2. To continue familiarising with **advanced tools** useful to run distribution network studies involving DERs. You will continue using [OpenDSS](https://www.epri.com/pages/sa/opendss) via the [dss_python](https://github.com/dss-extensions/dss_python) module. And, to guide you, all will be done using a notebook on [Jupyter Notebook](https://jupyter.org/).
+
+### Pre-Requisites for Part 3
+- You should have completed [Part 0](https://github.com/Team-Nando/Tutorial-DERHostingCapacity-0-dss_python) and, of course, be familiar with [OpenDSS and the modelling of distribution networks and DERs](https://sites.google.com/view/luisfochoa/research-tools/opendss-training-material).
+- For this part you just need Python (Anaconda) and the dss_python module. OpenDSS was only needed in Part 0 for demonstration purposes.
+
+## Run Part 3
+Make sure you have installed Anaconda, the dss_python module, etc. as specified in [Part 0](https://github.com/Team-Nando/Tutorial-DERHostingCapacity-0-dss_python). Otherwise, you will not be able to go through the tutorial. To guarantee that you have all the necessary packages you can also run the  **`requirements.txt`** file using  **`pip install -r requirements.txt`** on the Anaconda prompt.
 
 1. Download all the files using the green **`<> Code`** button at the top right.
    - You will get a ZIP file with a folder that contains all the files.
@@ -18,16 +29,14 @@ All the instructions on how to download the files and install all the necessary 
    - Upload the unzipped folder (with all the corresponding files) to Jupyter Notebook (the location is up to you)
    - Go inside the folder and open the **`ipynb`** file
 
-All the workshop instructions will be in the **`ipynb`** file.
+All the tutorial instructions will be in the **`ipynb`** file.
 
-Enjoy!
+Enjoy! 🤓
 
 ## Credits
 
-Angela Simonovska (asimonovska@student.unimelb.edu.au)
-
-Eshan Karunarathne (akarunarathn@student.unimelb.edu.au)
-
+Angela Simonovska (asimonovska@student.unimelb.edu.au)  
+Eshan Karunarathne (akarunarathn@student.unimelb.edu.au)  
 Nando Ochoa (luis.ochoa@unimelb.edu.au ; https://sites.google.com/view/luisfochoa)
 
 ## Acknowledgement
@@ -40,3 +49,4 @@ The content of this repository has been produced with direct and/or indirect inp
 ## Licenses
 
 Since this repository uses dss_python which is based on OpenDSS, both licenses have been included. This repository uses the BSD 3-Clause "New" or "Revised" license. Check all corresponding files (`LICENSE-OpenDSS`, `LICENSE-dss_python`, `LICENSE`).
+
