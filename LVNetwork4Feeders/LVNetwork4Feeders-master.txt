@@ -1,8 +1,0 @@
-Clear
-Set DefaultBaseFrequency=50
-New circuit.LVcircuit basekv=22.0 pu=1.00 angle=0 frequency=50 phases=3
-Redirect LVNetwork4Feeders-transformers.dss
-Redirect LVNetwork4Feeders-linecodes.dss
-Redirect LVNetwork4Feeders-lines.dss
-Redirect LVNetwork4Feeders-servicelines.dss
-Redirect LVNetwork4Feeders-loads.dss
