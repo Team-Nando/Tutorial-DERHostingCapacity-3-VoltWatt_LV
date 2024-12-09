@@ -11,7 +11,7 @@ This Tutorial is designed for power engineering students (undergraduate and post
 The objectives of this tutorial are:
 1. To familiarise with the process by which power engineers can **assess the effects of the Volt-Watt control function (available in most residential PV inverters and used by most standards around the world) on voltages and, thus, on PV hosting capacity**.
 
-2. To continue familiarising with **advanced tools** useful to run distribution network studies involving DERs. You will continue using [OpenDSS](https://www.epri.com/pages/sa/opendss) via the [dss_python](https://github.com/dss-extensions/dss_python) module. And, to guide you, all will be done using a notebook on [Jupyter Notebook](https://jupyter.org/).
+2. To continue familiarising with **advanced tools** useful to run distribution network studies involving DERs. You will continue using [OpenDSS](https://www.epri.com/pages/sa/opendss) via the [DSS-Python](https://github.com/dss-extensions/DSS-Python) module. And, to guide you, all will be done using a notebook on [Jupyter Notebook](https://jupyter.org/).
 
 ## Run Part 3
 To make the most of Part 3, you should have completed [Part 2](https://github.com/Team-Nando/Tutorial-DERHostingCapacity-2-TimeSeries_LV).  
@@ -22,7 +22,7 @@ Choose one of the options below to run Part 3.
 Just click on the badge <a target="_blank" href="https://colab.research.google.com/github/Team-Nando/Tutorial-DERHostingCapacity-3-VoltWatt_LV/blob/main/Tutorial-DERHC-3.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg"/></a>. You don't need to install anything 🤓💪.
 
 ### Local Option 💻: Jupyter Notebook
-Make sure you have installed Anaconda, the dss_python module, etc. as specified in [Part 0](https://github.com/Team-Nando/Tutorial-DERHostingCapacity-0-dss_python). Otherwise, you will not be able to go through the tutorial. To guarantee that you have all the necessary packages you can also run the  **`requirements.txt`** file using  **`pip install -r requirements.txt`** on the Anaconda prompt.
+Make sure you have installed Anaconda, the DSS-Python module, etc. as specified in [Part 0](https://github.com/Team-Nando/Tutorial-DERHostingCapacity-0-dss_python). Otherwise, you will not be able to go through the tutorial. To guarantee that you have all the necessary packages you can also run the  **`requirements.txt`** file using  **`pip install -r requirements.txt`** on the Anaconda prompt.
 
 1. Download all the files using the green **`<> Code`** button at the top right.
    - You will get a ZIP file with a folder that contains all the files.
@@ -55,5 +55,5 @@ The content of this repository has been produced with direct and/or indirect inp
 
 ## Licenses
 
-Since this repository uses dss_python which is based on OpenDSS, both licenses have been included. This repository uses the BSD 3-Clause "New" or "Revised" license. Check all corresponding files (`LICENSE-OpenDSS`, `LICENSE-dss_python`, `LICENSE`).
+Since this repository uses DSS-Python which is based on OpenDSS, both licenses have been included. This repository uses the BSD 3-Clause "New" or "Revised" license. Check all corresponding files (`LICENSE-OpenDSS`, `LICENSE-DSS-Python`, `LICENSE`).
 
